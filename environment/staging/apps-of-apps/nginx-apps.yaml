@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/nabeel-account/k8s-app.git
     targetRevision: HEAD
-    path: environment/staging/nginx
+    path: environment/nginx
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
